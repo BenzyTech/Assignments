@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+
+<body>
+  <meta charset="UTF-8">
+
+
+
+
+  <div class="container">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+
+    </div>
+    <div class="forms">
+      <div class="form-content">
+        <div class="login-form">
+          <div class="title">Login</div>
+          <form action="#">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="email" pattern=".+@globex\.com" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Enter your password" required>
+              </div>
+              <div class="text"><a href="#">Forgot password?</a></div>
+              <div class="button input-box">
+                <input type="submit" value="Sumbit">
+              </div>
+              <div class="text sign-up-text">Don't have an account? <label for="flip">Sigup now</label></div>
+            </div>
+          </form>
+        </div>
+        <div class="signup-form">
+          <div class="title">Signup</div>
+          <form action="success.html" method="POST">
+            <div class="input-boxes">
+
+              <!--  first name here -->
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="First Name" required>
+              </div>
+
+              <!--last name here -->
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Last Name" required>
+              </div>
+
+
+
+              <div class="input-box">
+
+                <select>
+                  <option selected disabled>Gender</option>
+                  <option>Male</option>
+                  <option>Femal</option>
+                  <option>Other</option>
+
+                </select>
+              </div>
+
+              <!-- date -->
+              <div class="input-box">
+                <i class="fas fa-calendar"></i>
+                <input type="date" placeholder="Date Of Birth" required>
+              </div>
+
+              <!--Phone number section  -->
+
+              <div class="input-box">
+                <i class="fas fa-phone-square"></i>
+                <input type="number" placeholder="Phone Number" required>
+              </div>
+              <!-- Email field -->
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Enter your email" required>
+                <!--password field -->
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Enter your password" required>
+              </div>
+
+              <div class="input-box">
+
+                <p class="color-selector">Favourite Color</p>
+                <input type="color" placeholder="Favourite Color" required>
+              </div>
+
+              <div class="button input-box">
+
+
+                <a href="success.html">
+                  <a href="success.html">
+                    <input type="submit" />
+
+              </div>
+
+
+              <div class="text sign-up-text"><label for="flip">Login now</label></div>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
